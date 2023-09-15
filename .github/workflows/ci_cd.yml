@@ -36,8 +36,8 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/real-time-file-sharing:build-${{ github.run_number }}
-            ${{ secrets.DOCKERHUB_USERNAME }}/real-time-file-sharing:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/cncf-indore:build-${{ github.run_number }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/cncf-indore:latest
 
   deploy:
     name: Deploy to ECS
