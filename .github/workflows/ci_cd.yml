@@ -7,9 +7,8 @@ on:
 
 env:
   AWS_REGION: "ap-south-1"
-  TASKDEF_NAME: "webserer"
   CLUSTER_NAME: "demo-cluster"
-  SERVICE_NAME: "web-svc"
+  SERVICE_NAME: "web-service"
       
 jobs:
   build:
