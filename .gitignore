@@ -1,0 +1,21 @@
+# Ignore development and test-specific files
+node_modules/
+npm-debug.log*
+*.log
+
+# Ignore Git-related files
+.git
+
+
+# Ignore Docker-related files
+
+.dockerignore
+.docker/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
